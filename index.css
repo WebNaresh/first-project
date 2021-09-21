@@ -1,0 +1,254 @@
+* {
+    padding: 0 0 0 0;
+    margin: 0 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* padding margin */
+  .small-mar {
+    margin: 10px;
+  }
+  .small-pad {
+    padding: 5px;
+  }
+  
+  /* colors attribute */
+  .blue {
+    background: rgb(66, 98, 185);
+  }
+  
+  .pc {
+    background-color: #a1297e;
+  }
+  .tc {
+    background: #2b272a3b;
+  }
+  .bkb {
+    background: rgb(0, 0, 0);
+  }
+  .bkw {
+    background: rgb(255, 255, 255);
+  }
+  /* text properties */
+  .fll {
+    font-size: xxx-large;
+  }
+  .fl {
+    font-size: larger;
+  }
+  .fm {
+    font-size: medium;
+  }
+  .fb {
+    font-weight: bolder;
+  }
+  .fs {
+    font-size: smaller;
+  }
+  .ta {
+    text-align: center;
+  }
+  .font-w {
+    color: white;
+  }
+  .font-b {
+    color: black;
+  }
+  /*display properties */
+  .flex {
+    display: flex;
+  }
+  .flex-rr {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .flex-c {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* size attribute */
+  .fullvh {
+    height: 100vh;
+  }
+  .fullvw {
+    width: 100vw;
+  }
+  .fullvw98 {
+    width: 98.5vw;
+  }
+  .width-half {
+    width: 50%;
+  }
+  
+  /* center properties */
+  
+  .jc {
+    justify-content: center;
+  }
+  .ma {
+    margin: auto;
+  }
+  .ac {
+    align-items: center;
+  }
+  
+  /* universal image size  */
+  
+  .img-d {
+    height: 30px;
+  }
+  .filter:hover {
+    filter: invert(1);
+  }
+  .filter {
+    filter: invert(1);
+  }
+  
+  /* menu btn */
+  .menu-btn {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    display: none;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .menu-btn {
+      position: fixed;
+      top: 15px;
+      right: 15px;
+      display: block;
+    }
+    .hide-me {
+      display: none;
+    }
+  }
+  
+  /* borders */
+  .bdr-r {
+    border-radius: 10px;
+  }
+  .bdr-w {
+    border: 2px solid white;
+  }
+  .bdr-b {
+    border: 2px solid black;
+  }
+  
+  /* Cursor properties */
+  .c-p {
+    cursor: pointer;
+  }
+  .border-box{
+    box-shadow: 0px 32px 1em #0000009e;
+  }
+  
+  /* transition */
+  .t {
+    transition: all 0.5s ease-in-out;
+  }
+  
+  /* background properties */
+  .bg-tb {
+    background: linear-gradient(rgba(255, 255, 255, 0), black),
+      url(/4rthproject/img/varanda.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .bg-bt {
+    background: linear-gradient(black, rgba(255, 255, 255, 0));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .bg-tblue {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(66, 98, 185));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .bg-bluet {
+    background: linear-gradient(rgb(66, 98, 185), rgba(255, 255, 255, 0));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .bg-paral {
+    background: linear-gradient(0deg, black, transparent);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .hide-once {
+    padding: 2px 10px;
+    border: 2px solid rgba(255, 255, 255, 0);
+  }
+  .hide-once:hover {
+    border: 2px solid black;
+    border-radius: 5px;
+    background: white;
+    color: black;
+  }
+  
+  /* media querry */
+  @media screen and (max-width: 250px) {
+    #frontal-nav {
+      width: 250px;
+    }
+    #sidenav{
+      width: 250px;
+      right: -330vw;
+      height:350px;
+
+    }
+  }
+  
+  /* local id's and classes */
+  
+  /* classe */
+  .img-p {
+    height: 52px;
+    padding: 0 40px;
+  }
+  #sidenav {
+    position: fixed;
+    right: -100vw;
+    transition: all 0.5s;
+    height: 660px;
+    z-index: 1;
+  }
+  #frontal-nav {
+    height: 70px;
+    border-radius: 20px;
+  }
+  #frontal-nav h1 {
+    font-size: xx-large;
+  }
+  #frontal-1 {
+    width: 35%;
+  }
+  #frontal-2 {
+    width: 45%;
+  }
+  #frontal-3 {
+    width: 20%;
+    margin-right: 25px;
+    justify-content: right;
+    z-index: 1;
+  }
+  
+  ul{
+    margin: 80px;
+  }
+  .navgame{
+    padding: 10px;
+  }
